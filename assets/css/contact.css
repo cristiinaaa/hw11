@@ -1,0 +1,6 @@
+.wizard-toggle{margin-bottom:15px}
+.form-step{display:block}
+.form-step.hidden{display:none}
+.has-success .help-block{color:#3c763d}
+.has-error .help-block{color:#a94442}
+#formAlert{margin-top:15px}
