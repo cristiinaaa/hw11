@@ -93,11 +93,13 @@
     e.preventDefault();
     var keys = Object.keys(fields);
     var allGood = keys.map(runValidation).every(function(x){ return x; });
+
     if(allGood){
-      showAlert('success', 'Form is valid. Ready to submit.');
-    }else{
+      window.location.href = 'thank-you.html';
+    } else {
       showAlert('danger', 'Please fix the errors and try again.');
     }
+    
   });
 
   function setWizardMode(on){
